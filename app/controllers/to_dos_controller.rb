@@ -46,6 +46,6 @@ class ToDosController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def to_do_params
-      params.fetch(:to_do, {})
+      params.require(:to_do).permit(:listItem)
     end
 end
