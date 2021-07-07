@@ -1,25 +1,37 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# My ToDo App 
+*Back end code 
+*[Front end here](https://github.com/kurwitz3/To-do/tree/main/Frontend)
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+This is a cool little app that I use to keep track of things I need to accomplish. I used a Rails api backend so I can add and delete items after I have completed a task.
 
-* System dependencies
+## Installation 
 
-* Configuration
+Run bundle install to install all the gems.
 
-* Database creation
+```bash
+bundle install
+```
 
-* Database initialization
+## Usage 
 
-* How to run the test suite
+To start the the server run 
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash 
+rails s
+```
+Then go to the browser and enter the url localhost:3000. You will also need to open the index.html in the frontend.
+Instructions are located in the frontend README.md.
+## Contributing
 
-* Deployment instructions
+Contributing Bug reports and pull requests are welcome. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
-* ...
-# to-do-backend
+## License 
+
+ MIT 
+
+ ## Code Of Conduct
+
+Code of Conduct Everyone interacting in the My-ToDo-app project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
